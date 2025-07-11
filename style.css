@@ -185,3 +185,87 @@
     font-size: 13px;
 }
 
+.focus-area{
+    border-radius: 14px;
+    text-align: center;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.focus-title-description{
+    margin: 20px 0;
+    color: #252432;
+    font-family: "Inter", sans-serif;
+}
+
+.focus-area button{
+    margin-bottom: 20px;
+}
+
+.focus-area-img img{
+    border-radius: 48px;
+    margin-bottom: 71px;
+}
+
+.contact-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+    padding: 160px 0 85px;
+}
+
+.contact-content{
+    width: 50%;
+}
+
+.contact-title{
+    font-size: 70px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-info{
+    width: 50%;
+}
+
+.contact-info label{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-info input, textarea{
+    display: block;
+    width: 80%;
+}
+
+.contact-info input{
+    color: #252432;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    outline: none;
+    margin: 10px 0 19px;
+    font-size: 16px;
+}
+
+.contact-info textarea{
+    margin: 10px 0 19px;
+    padding: 10px 20px;
+    resize: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.contact-info input:focus, textarea:focus{
+    border: 1px solid #4E47FF;
+}
+
+.contact-info input[type="submit"]{
+    color: white;
+}
