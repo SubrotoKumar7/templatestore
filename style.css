@@ -26,6 +26,7 @@
 
 .primary-btn:hover{
     background-color: #2e29bb;
+    box-shadow: 0 0 15px #000;
 }
 
 /* header style */
@@ -33,6 +34,7 @@
     width: 100%;
     height: 100vh;
     background-image: url(assets/Hero-bg.png);
+    background-attachment: fixed;
 }
 
 .nav-area{
