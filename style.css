@@ -89,7 +89,7 @@
 
 .action-content .action-description{
     font-size: 24px;
-    color: #252432;
+    color: rgb(37, 36, 50, 50%);
     line-height: 30px;
     margin: 23px 0;
 }
@@ -98,6 +98,7 @@
     border-radius: 48px;
 }
 
+/* user count area style */
 .user-area{
     background-color: rgba(78, 71, 255, 10%);
     padding: 50px 142px;
@@ -124,6 +125,7 @@
     color: #4E47FF;
 }
 
+/* testimonial area style */
 .testimonial-area{
     margin: 137px 0;
 }
@@ -191,6 +193,7 @@
     font-size: 13px;
 }
 
+/* focus area style */
 .focus-area{
     background-color: white;
     border-radius: 14px;
@@ -206,7 +209,7 @@
 
 .focus-title-description{
     margin: 20px 0;
-    color: #252432;
+    color: rgb(37, 36, 50, 50%);
     font-family: "Inter", sans-serif;
 }
 
@@ -218,6 +221,7 @@
     border-radius: 48px;
 }
 
+/* contact area style */
 .contact-area{
     display: flex;
     justify-content: space-between;
@@ -252,7 +256,7 @@
 .contact-info input{
     color: #252432;
     padding: 10px 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
     outline: none;
@@ -267,6 +271,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
     border: 1px solid transparent;
     outline: none;
+    border-radius: 5px;
 }
 
 .contact-info input:focus, textarea:focus{
@@ -275,8 +280,10 @@
 
 .contact-info input[type="submit"]{
     color: white;
+    border-radius: 7px;
 }
 
+/* footer area style */
 .footer-area{
     display: flex;
     justify-content: center;
