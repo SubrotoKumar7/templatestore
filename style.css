@@ -26,7 +26,6 @@
 
 .primary-btn:hover{
     background-color: #2e29bb;
-    box-shadow: 0 0 15px #000;
 }
 
 /* header style */
@@ -70,12 +69,16 @@
 }
 
 /* main style */
+.main-area{
+    background-color: rgb(231, 233, 238);
+}
+
 .action-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 220px;
-    margin: 116px 0;
+    padding: 116px 0;
     font-family: "Raleway", sans-serif;
 }
 
@@ -140,10 +143,11 @@
 }
 
 .testimonial-container .card{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
     padding: 24px;
     font-family: "Inter", sans-serif;
+    background-color: white;
 }
 
 .review-star{
@@ -188,8 +192,10 @@
 }
 
 .focus-area{
+    background-color: white;
     border-radius: 14px;
     text-align: center;
+    padding: 71px 0;
 }
 
 .focus-title{
@@ -210,7 +216,6 @@
 
 .focus-area-img img{
     border-radius: 48px;
-    margin-bottom: 71px;
 }
 
 .contact-area{
