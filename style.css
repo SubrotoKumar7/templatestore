@@ -269,3 +269,46 @@
 .contact-info input[type="submit"]{
     color: white;
 }
+
+.footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.footer-content{
+    text-align: center;
+    padding: 104px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-area .logo{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-content .footer-description{
+    color: #8987A1;
+    max-width: 530px;
+    padding-top: 10px;
+}
+
+.footer-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.footer-menu a:hover{
+    color: #4E47FF;
+}
