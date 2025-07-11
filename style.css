@@ -119,3 +119,69 @@
     color: #4E47FF;
 }
 
+.testimonial-area{
+    margin: 137px 0;
+}
+
+.testimonial-title{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+    color: #252432;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testimonial-container .card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+    border-radius: 14px;
+    padding: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.review-star{
+    width: 90px;
+    height: 20px;
+    background-image: url(assets/icon-star.png);
+    background-repeat: repeat-x;
+}
+
+.card-content{
+    padding: 24px 0;
+}
+
+.card-title{
+    color: #252432;
+    margin-bottom: 8px;
+}
+
+.card-description{
+    color: #252432;
+    padding: 5px 0;
+}
+
+.person{
+    display: flex;
+    gap: 12px;
+}
+
+.person img{
+    border-radius: 50%;
+}
+
+.person-info .reviewer{
+    color: #252432;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.person-info .date{
+    font-size: 13px;
+}
+
